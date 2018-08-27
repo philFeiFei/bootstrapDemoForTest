@@ -58,6 +58,7 @@ public class GetEmployeeInfo extends HttpServlet {
 		
 		if("query".equals(operate)){
 			try {
+				System.out.println("test");
 				String json = query(displayName);
 				 response.getWriter().write(json);
 			} catch (Exception e) {
