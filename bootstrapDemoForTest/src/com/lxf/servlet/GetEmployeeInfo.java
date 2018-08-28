@@ -54,7 +54,7 @@ public class GetEmployeeInfo extends HttpServlet {
 		response.setCharacterEncoding("UTF-8");
 		
 		String operate = request.getParameter("operate");
-		String displayName = request.getParameter("displayName");
+		String displayName = request.getParameter("displayname");
 		
 		if("query".equals(operate)){
 			try {
